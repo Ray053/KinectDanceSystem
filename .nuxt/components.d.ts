@@ -53,6 +53,7 @@ interface _GlobalComponents {
     'DropdownMenuSub': typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSub']
     'DropdownMenuSubTrigger': typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubTrigger']
     'DropdownMenuSubContent': typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubContent']
+    'Input': typeof import("../components/ui/input/index")['Input']
     'Select': typeof import("../components/ui/select/index")['Select']
     'SelectContent': typeof import("../components/ui/select/index")['SelectContent']
     'SelectGroup': typeof import("../components/ui/select/index")['SelectGroup']
@@ -64,7 +65,6 @@ interface _GlobalComponents {
     'SelectSeparator': typeof import("../components/ui/select/index")['SelectSeparator']
     'SelectTrigger': typeof import("../components/ui/select/index")['SelectTrigger']
     'SelectValue': typeof import("../components/ui/select/index")['SelectValue']
-    'Input': typeof import("../components/ui/input/index")['Input']
     'Sheet': typeof import("../components/ui/sheet/index")['Sheet']
     'SheetTrigger': typeof import("../components/ui/sheet/index")['SheetTrigger']
     'SheetClose': typeof import("../components/ui/sheet/index")['SheetClose']
@@ -143,6 +143,7 @@ interface _GlobalComponents {
     'LazyDropdownMenuSub': LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSub']>
     'LazyDropdownMenuSubTrigger': LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubTrigger']>
     'LazyDropdownMenuSubContent': LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubContent']>
+    'LazyInput': LazyComponent<typeof import("../components/ui/input/index")['Input']>
     'LazySelect': LazyComponent<typeof import("../components/ui/select/index")['Select']>
     'LazySelectContent': LazyComponent<typeof import("../components/ui/select/index")['SelectContent']>
     'LazySelectGroup': LazyComponent<typeof import("../components/ui/select/index")['SelectGroup']>
@@ -154,7 +155,6 @@ interface _GlobalComponents {
     'LazySelectSeparator': LazyComponent<typeof import("../components/ui/select/index")['SelectSeparator']>
     'LazySelectTrigger': LazyComponent<typeof import("../components/ui/select/index")['SelectTrigger']>
     'LazySelectValue': LazyComponent<typeof import("../components/ui/select/index")['SelectValue']>
-    'LazyInput': LazyComponent<typeof import("../components/ui/input/index")['Input']>
     'LazySheet': LazyComponent<typeof import("../components/ui/sheet/index")['Sheet']>
     'LazySheetTrigger': LazyComponent<typeof import("../components/ui/sheet/index")['SheetTrigger']>
     'LazySheetClose': LazyComponent<typeof import("../components/ui/sheet/index")['SheetClose']>
@@ -239,6 +239,7 @@ export const DropdownMenuLabel: typeof import("../components/ui/dropdown-menu/in
 export const DropdownMenuSub: typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSub']
 export const DropdownMenuSubTrigger: typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubTrigger']
 export const DropdownMenuSubContent: typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubContent']
+export const Input: typeof import("../components/ui/input/index")['Input']
 export const Select: typeof import("../components/ui/select/index")['Select']
 export const SelectContent: typeof import("../components/ui/select/index")['SelectContent']
 export const SelectGroup: typeof import("../components/ui/select/index")['SelectGroup']
@@ -250,7 +251,6 @@ export const SelectScrollUpButton: typeof import("../components/ui/select/index"
 export const SelectSeparator: typeof import("../components/ui/select/index")['SelectSeparator']
 export const SelectTrigger: typeof import("../components/ui/select/index")['SelectTrigger']
 export const SelectValue: typeof import("../components/ui/select/index")['SelectValue']
-export const Input: typeof import("../components/ui/input/index")['Input']
 export const Sheet: typeof import("../components/ui/sheet/index")['Sheet']
 export const SheetTrigger: typeof import("../components/ui/sheet/index")['SheetTrigger']
 export const SheetClose: typeof import("../components/ui/sheet/index")['SheetClose']
@@ -329,6 +329,7 @@ export const LazyDropdownMenuLabel: LazyComponent<typeof import("../components/u
 export const LazyDropdownMenuSub: LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSub']>
 export const LazyDropdownMenuSubTrigger: LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubTrigger']>
 export const LazyDropdownMenuSubContent: LazyComponent<typeof import("../components/ui/dropdown-menu/index")['DropdownMenuSubContent']>
+export const LazyInput: LazyComponent<typeof import("../components/ui/input/index")['Input']>
 export const LazySelect: LazyComponent<typeof import("../components/ui/select/index")['Select']>
 export const LazySelectContent: LazyComponent<typeof import("../components/ui/select/index")['SelectContent']>
 export const LazySelectGroup: LazyComponent<typeof import("../components/ui/select/index")['SelectGroup']>
@@ -340,7 +341,6 @@ export const LazySelectScrollUpButton: LazyComponent<typeof import("../component
 export const LazySelectSeparator: LazyComponent<typeof import("../components/ui/select/index")['SelectSeparator']>
 export const LazySelectTrigger: LazyComponent<typeof import("../components/ui/select/index")['SelectTrigger']>
 export const LazySelectValue: LazyComponent<typeof import("../components/ui/select/index")['SelectValue']>
-export const LazyInput: LazyComponent<typeof import("../components/ui/input/index")['Input']>
 export const LazySheet: LazyComponent<typeof import("../components/ui/sheet/index")['Sheet']>
 export const LazySheetTrigger: LazyComponent<typeof import("../components/ui/sheet/index")['SheetTrigger']>
 export const LazySheetClose: LazyComponent<typeof import("../components/ui/sheet/index")['SheetClose']>

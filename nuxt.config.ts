@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "shadcn-nuxt", "@nuxtjs/tailwindcss", '@nuxtjs/color-mode'],
+  modules: ["@nuxt/eslint", "shadcn-nuxt", "@nuxtjs/tailwindcss", '@nuxtjs/color-mode', 'nuxt-mcp'],
 
   colorMode: {
     classSuffix: ''

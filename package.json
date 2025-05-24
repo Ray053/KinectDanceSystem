@@ -18,6 +18,7 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.381.0",
     "nuxt": "^3.11.2",
+    "nuxt-mcp": "^0.2.1",
     "radix-vue": "^1.8.2",
     "reka-ui": "^2.1.0",
     "shadcn-nuxt": "^0.10.4",

@@ -10,11 +10,6 @@
             placeholder="使用者名稱" 
             required
           />
-          <input 
-            v-model="password" 
-            type="password" 
-            placeholder="密碼" 
-          />
           <button type="submit" :disabled="isLoading">
             {{ isLoading ? '登入中...' : '登入' }}
           </button>
