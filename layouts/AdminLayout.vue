@@ -4,8 +4,8 @@
       <aside class="sidebar" :class="{ 'collapsed': sidebarCollapsed }">
         <div class="sidebar-header">
           <div class="logo-container">
-            <img src="/logo.svg" alt="Logo" class="logo" v-if="!sidebarCollapsed" />
-            <img src="/logo-icon.svg" alt="Logo" class="logo-icon" v-else />
+            <img src="/logo.png" alt="Logo" class="logo" v-if="!sidebarCollapsed" />
+            <!-- <img src="/logo-icon.svg" alt="Logo" class="logo-icon" v-else /> -->
           </div>
           <button @click="toggleSidebar" class="collapse-btn">
             <PanelLeftClose v-if="sidebarCollapsed" class="icon" />
